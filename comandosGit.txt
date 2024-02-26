@@ -1,0 +1,47 @@
+Primeramente para iniciar un nuevo repositorio lo que hago es lo siguiente:
+--creo un nuevo repositorio, o carpeta con comandos en la terminal--
+ls : para saber en donde estoy y en que repositorios puedo ingresar
+cd Documentos : asi ingreso al repositorio de Documentos
+ls : para seguir sabiendo donde mas ingresar
+--creo un repositorio llamado PHP--
+mkdir PHP
+--ingreso al repositorio creado--
+cd PHP
+--creo un nuevo repositorio llamado dia1--
+mkdir dia1
+--ingreso al repositorio creado llamado dia1--
+cd dia1
+--ingreso a visual estudio code dentro de los repositorios creados--
+code .
+
+
+
+----------------------------------------------------------------------------------------------------------------
+--aqui inicio con lo de git y github, dentro de la terminal de VSCODE--
+--si no estamos logueados lo que hacemos es verificar--
+git config --list
+-- si no estamos logueados entonces tendremos que hacerlo--
+git config --global user.name "flg007"
+git config --global user.email "florentinolutinogonzales@gmail.com"
+--luego iniciamos con git--
+git init
+--realizamos un guardado de todos los archivos modificados
+o algunos archivos--
+git add .
+o
+git add ejemplo.html
+
+--confirmamos los cambios agregando un commit o tambien llamado
+el titulo de la caja--
+git commit -m "mensaje que explique brevemente lo que vas a guardar"
+--para guardar en respositorio en la nibe de github--
+git remote add origin https://github.com/flg007/IniciosPHP.git
+--para solucionar eror de la rama actual no tiene una rama upstream--
+git push --set-upstream origin master
+
+--para guardarlo en el repositorio de github en la nube--
+git push
+
+--------------y listo esos son los pasos----------------
+--para saber si todo esta en orden--
+git status
