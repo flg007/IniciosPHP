@@ -1,7 +1,13 @@
 <?php
-echo "Hola, PHP";
+
+
+$mi_variable = "esto es una variable xd";
+
+
+
+echo $mi_variable . "\n" . "esto es un salto de linea y el punto es para concatenar";
+
+
 
 
 ?>
-esto es para comentar */ 
-y a continuacion se comentara*/
