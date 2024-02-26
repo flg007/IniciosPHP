@@ -45,3 +45,13 @@ git push
 --------------y listo esos son los pasos----------------
 --para saber si todo esta en orden--
 git status
+
+--PARA CLONAR REPOSITORIO Sacar el link del repositorio de github--
+luego en la terminal de linux ubuntu--
+ejemplo:
+ls
+cd Documentos
+git clone https://github.com/flg007/IniciosPHP.git
+
+--de esa forma clonara el repositorio de github en nuestro repositorio local, junto a los archivos--
+
