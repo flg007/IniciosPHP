@@ -1,0 +1,2 @@
+----Casting----
+--es cuando forazmos que un tipo de dato se convierta en otro tipo de dato--

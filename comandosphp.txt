@@ -1,0 +1,154 @@
+--para comenzar cuando vamos a empezar a usar codigo php se usa lo siguiente--
+<?php
+--y para cerrar se usa esto--
+?>
+
+--para asigar una variable--
+$nombreVariable= 6;
+$nombreVariable= "string";
+
+--para mostrar memsaje en la terminal--
+echo "mensaje que queremos mostrar pueden ser tambien $nombreVariable y saltos de linea \n";
+-- este es un salto de linea --
+echo "hola como estan \n yo muy bien y tú";
+
+el mensaje se mostrara es el siguiente:
+hola como estan 
+
+yo muy bien y tú
+
+-- para concatenar osea para juntar las cosas --
+se usa el punto .
+
+ $numero1 =5;
+ $numero2 =6;
+
+ $resultado= $numero1.$numero2;
+
+ echo "$numero1 + $numero2 la concatenacion es igual a $resultado"
+
+ se vera asi:
+
+ 5 + 6 la concatenacion es igual a 56
+
+--luego siguen las operaciones matematicas simples :Sumas --
+
+echo "esto es una suma \n";
+
+$numero1=5;
+$numero2=7;
+
+$resultado= $numero1 + $numero2 ;
+
+echo "$numero1 + $numero2 es igual a $resultado\n";
+
+se vera asi:
+5 + 7 es igual a 12
+
+
+
+--resta--
+echo "esto es una resta\n";
+
+$numero1=5;
+$numero2=7;
+
+$resultado= $numero1 - $numero2 ;
+
+echo "$numero1 - $numero2 es igual a $resultado\n";
+se vera asi:
+5 - 7 es igual a -2
+
+--multiplicacion--
+echo "esto es una multiplicacion\n";
+
+$numero1=5;
+$numero2=7;
+
+$resultado= $numero1 * $numero2 ;
+
+echo "$numero1 x $numero2 es igual a $resultado\n";
+se vera asi:
+5 x 7 es igual a 35
+
+--division--
+echo "esto es una division\n";
+
+$numero1=5;
+$numero2=7;
+
+$resultado= $numero1 / $numero2 ;
+
+echo "$numero1 / $numero2 es igual a $resultado\n";
+se vera asi:
+5 - 7 es igual a $resultado
+
+--para ver informacion como tipo de datos--
+
+$personas = [
+    "Carlos" => 22,
+    "Mr. Michi" => 15,
+    "Juan" => 65
+];
+
+var_dum ( $personas);
+
+lo que se vera:
+
+array(3) {
+    ["Carlos"]=>
+    int(22)
+    ["Mr. Michi"]=>
+    int(15)
+    ["Juan"]=>
+    int(65)
+}
+
+--para imprimir la variable de una forma mas limpia u con menos informacion--
+
+$personas = [
+    "Carlos" => 22,
+    "Mr. Michi" => 15,
+    "Juan" => 65
+];
+
+print_r( $personas);
+
+lo que nos da:
+
+array
+(
+[Carlos] => 22
+[Mr. Michi] => 15
+[Juan] => 65
+
+)
+
+// nos sirve para comentar una sola linea.
+# tambien comentamos una sola linea.
+
+/* Comentario Multilinea
+nos comentara todo si no le 
+ponemos para cerrar el comentario*/
+
+-- php tiene un tipado debil, eso quiere decir que php convertira 
+un numero que esta como string x ej--
+
+$numero = "5";
+
+echo "$numero" + 5;
+
+y se vera asi
+
+10
+
+--otro ej:--
+$papas ="10 papas en el costal";
+$cuantas_papas_hay = $papas + 5;
+
+echo $cuantas_papas_hay;
+echo "\n";
+
+se vera asi:
+
+15
